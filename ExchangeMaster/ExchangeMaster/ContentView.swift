@@ -6,7 +6,6 @@
 //
 
 
-// https://api.exchangerate.host/latest?base=\(base)&amount=\(input)
 import SwiftUI
 
 struct ContentView: View {
@@ -74,14 +73,12 @@ struct ContentView: View {
                     makeRequest(showAll: true)
                     inputIsFocused =  false
                 }.padding()
-                
-                
+
             }
         } .onAppear {
             makeRequest(showAll: true)
         }
     }
-    
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
