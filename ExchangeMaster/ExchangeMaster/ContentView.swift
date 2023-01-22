@@ -27,7 +27,6 @@ struct ContentView: View {
                 tempList.sort()
             }
             currencyList.self = tempList
-            print(tempList)
         }
         
     }
@@ -51,7 +50,7 @@ struct ContentView: View {
             }
             VStack {
                 Rectangle()
-                    .frame(height: 15.0)
+                    .frame(height: 10.0)
                     .foregroundColor(.green)
                     .opacity(0.90)
                 TextField("Enter your Amount", text: $input)
@@ -73,7 +72,10 @@ struct ContentView: View {
                     makeRequest(showAll: true)
                     inputIsFocused =  false
                 }.padding()
-
+                    .foregroundColor(.green)
+                    .bold()
+                    .font(.system(size: 20))
+                    .font(.title2)
             }
         } .onAppear {
             makeRequest(showAll: true)
