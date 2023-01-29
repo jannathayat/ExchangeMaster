@@ -22,7 +22,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="exchangeMasterLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="36a-W1-dVs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch screen" translatesAutoresizingMaskIntoConstraints="NO" id="36a-W1-dVs">
                                 <rect key="frame" x="21.666666666666657" y="226" width="350" height="400"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="400" id="prg-J0-Yh9"/>
@@ -44,6 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="exchangeMasterLaunchScreen" width="1565" height="1473"/>
+        <image name="launch screen" width="1024" height="1024"/>
     </resources>
 </document>
