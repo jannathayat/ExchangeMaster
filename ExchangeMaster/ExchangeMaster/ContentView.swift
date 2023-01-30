@@ -73,7 +73,6 @@ struct ContentView: View {
                     inputIsFocused =  false
                 }.padding()
                     .foregroundColor(.green)
-                    .bold()
                     .font(.system(size: 20))
                     .font(.title2)
             }
